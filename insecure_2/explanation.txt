@@ -1,1 +1,1 @@
-
+In this code, the developer opens the file in read mode for checking its existance, and open it again in write mode before closing it which was opened in read mode.
