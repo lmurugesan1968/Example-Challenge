@@ -1,1 +1,1 @@
-
+This secure code invokes fopen() at a single location and uses the x mode of fopen(). This mode causes fopen() to fail if the file exists. This check and subsequent open is performed without creating a race window. The x mode provides exclusive access to the file only if the host environment provides this support.
