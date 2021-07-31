@@ -1,1 +1,4 @@
-
+Trying to create a new file and add some data into the file.
+Open the file in read mode to verify whether the file is existing already.
+If file is mot already exists, they are opening the file in write mode and write the required data into the file.
+The problem here is, they have not closed the file, when they open the file in read mode itself.
