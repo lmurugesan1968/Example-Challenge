@@ -1,1 +1,1 @@
-
+In this insecure code, the developer not at all check the existance of the file before writing data into the file.
