@@ -2,15 +2,6 @@
 #include <string.h>
 void open_file(const char *file)
 {
-	FILE *f = fopen(file, "r");
-	if (f != NULL)
-	{
-		printf("Error - 1 File exists\n");  /* Error handling - File exists */
-	}
-	if (fclose(f) == EOF)
-	{
-		printf("Error - 2\n");  /* Error handling */
-	}
 	f = fopen(file, "w");
 	if (f == NULL)
 	{
